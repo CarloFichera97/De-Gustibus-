@@ -57,7 +57,7 @@ const Overlay = styled.div`
   width: 100%;
   background: #262223;
   transition: height 0.4s ease-in-out;
-  @media (min-width: 700px) {
+  @media (min-width: 775px) {
     display: none;
   }
 `;
