@@ -20,7 +20,7 @@ const HorizontalMenu = styled.ul`
     margin: 0px 21px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 775px) {
     display: none;
   }
 `;
@@ -31,7 +31,7 @@ const ToggleIcon = styled.button`
   border: none;
   outline: none;
   margin-right: 15px;
-  @media (min-width: 700px) {
+  @media (min-width: 775px) {
     display: none;
   }
 `;
@@ -52,6 +52,7 @@ const LineHorizontalButton = styled.span`
 
 const Overlay = styled.div`
   position: absolute;
+
   height: ${(props) => (props.open ? "91vh" : 0)};
   width: 100%;
   background: #262223;
@@ -119,9 +120,9 @@ const Header = () => {
               Gallery
             </NavLink>
           </li>
-
           <li>
             <NavLink
+              id="about_us_navbar"
               to="/AboutUs"
               className="nav_inactive_menu_navbar"
               activeClassName="active_menu_navbar"
@@ -132,7 +133,17 @@ const Header = () => {
         </HorizontalMenu>
         <ToggleIcon
           onClick={() => {
+            let element = document.querySelector(".overlay");
             toggleNav(!toggle);
+            if (toggle === true) {
+              setTimeout(() => {
+                element.classList.remove("send_to_front");
+              }, 100);
+            } else {
+              setTimeout(() => {
+                element.classList.add("send_to_front");
+              }, 100);
+            }
           }}
         >
           <LineHorizontalButton open={toggle} />

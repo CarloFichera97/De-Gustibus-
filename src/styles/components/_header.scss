@@ -6,6 +6,10 @@
   }
 }
 
+.send_to_front {
+  z-index: 9999999999;
+}
+
 .active_menu_navbar {
   border-bottom: 1px solid $wine;
   &:hover {
@@ -52,4 +56,8 @@
 
 .test {
   margin-top: 150px;
+}
+
+#about_us_navbar {
+  margin-left: 24px;
 }
