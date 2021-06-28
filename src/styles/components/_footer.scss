@@ -1,11 +1,11 @@
 .footer_container {
   background-color: #f2f2f2;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-basic {
   padding: 0px 0;
-
-  color: #4b4c4d;
   position: relative;
   z-index: 100;
   height: 80px;
@@ -50,19 +50,18 @@
   text-align: center;
   border-radius: 50%;
   border: 1px solid #ccc;
-  margin: 0 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: -15px;
   color: inherit;
   opacity: 0.75;
 }
 
-.footer-basic .social > a:hover {
-  opacity: 0.9;
+.list_container {
+  margin-bottom: 10px;
 }
 
-.footer-basic .copyright {
-  margin-top: 15px;
-  text-align: center;
-  font-size: 13px;
-  color: #aaa;
-  margin-bottom: 10px;
+.text-center {
+  color: $black;
+  font-size: 12px;
 }

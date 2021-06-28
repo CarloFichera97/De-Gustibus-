@@ -1,9 +1,9 @@
 import React from "react";
-const Footer = (props) => {
+const Footer = () => {
   return (
     <div className="footer_container">
       <div className="footer-basic">
-        <footer>
+        <footer className="footer_container">
           <div className="social">
             <a
               href="https://www.instagram.com/de_gustibus_taormina/"
@@ -22,24 +22,47 @@ const Footer = (props) => {
               <i className="icon ion-social-facebook"></i>
             </a>
           </div>
-          <ul className="list-inline">
-            <li className="list-inline-item">
-              <a href="#">Home</a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#">Services</a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#">About</a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#">Terms</a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-          </ul>
-          <p className="copyright">DeGustibus © 2021</p>
+          <div className="list_container">
+            <ul className="list-inline">
+              <li className="list-inline-item">
+                <a href="#">Home</a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#">Services</a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#">Terms</a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div className="list_container">
+            <ul className="list-inline">
+              <a>
+                <li className="list-inline-item">
+                  <i class="fa fa-location-arrow"></i> Via Di Giovanni 28A,
+                  Taormina
+                </li>
+              </a>
+              <a>
+                <li className="list-inline-item">
+                  <i class="fa fa-phone"></i> +91-9999878398{" "}
+                </li>
+              </a>
+              <a>
+                <li className="list-inline-item">
+                  <i class="fa fa fa-envelope"></i> degustibustao@gmail.com
+                </li>
+              </a>
+            </ul>
+          </div>
+
+          <p className="text-center">Copyright @2021 | De Gustibus</p>
         </footer>
       </div>
     </div>
