@@ -15,6 +15,10 @@ const galleryDate = [
       name: "Panino??",
       image: path.join(imagesPath, "3.jpg"),
     },
+    {
+      name: "Scirocco Salad",
+      image: path.join(imagesPath, "17.jpg"),
+    },
   ],
   [
     {
@@ -29,6 +33,10 @@ const galleryDate = [
       name: "Main Restaurant Area",
       image: path.join(imagesPath, "10.jpg"),
     },
+    {
+      name: "Pasta With Norma",
+      image: path.join(imagesPath, "15.jpg"),
+    },
   ],
   [
     {
@@ -42,16 +50,6 @@ const galleryDate = [
     {
       name: "To Be Decided",
       image: path.join(imagesPath, ""),
-    },
-  ],
-  [
-    {
-      name: "Scirocco Salad",
-      image: path.join(imagesPath, "17.jpg"),
-    },
-    {
-      name: "Pasta With Norma",
-      image: path.join(imagesPath, "15.jpg"),
     },
     {
       name: "Wine Collection",
