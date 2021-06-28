@@ -42,7 +42,7 @@ const Gallery = () => {
         </a>
       </div>
 
-      <div class="gallery__column">
+      <div className="gallery__column">
         <a target="_blank" className="gallery__link">
           <figure className="gallery__thumb">
             <img
@@ -94,7 +94,7 @@ const Gallery = () => {
         </a>
 
         <a target="_blank" className="gallery__link">
-          <figure class="gallery__thumb">
+          <figure className="gallery__thumb">
             <img
               src="/images/gallery/27.jpg"
               alt="Aperitivo Rinforzato"

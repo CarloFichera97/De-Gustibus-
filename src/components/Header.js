@@ -123,7 +123,7 @@ const Header = () => {
           <li>
             <NavLink
               id="about_us_navbar"
-              to="/AboutUs"
+              to="/aboutus"
               className="nav_inactive_menu_navbar"
               activeClassName="active_menu_navbar"
             >
