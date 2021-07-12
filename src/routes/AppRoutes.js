@@ -7,6 +7,7 @@ import HomePage from "./../components/Homepage";
 import MenuPage from "./../components/MenuPage";
 import AboutUsPage from "./../components/AboutUsPage";
 import Gallery from "./../components/Gallery";
+import MenuCards from "../components/MenuCards";
 export const history = createBrowserHistory();
 
 const AppRouter = () => (
@@ -16,7 +17,7 @@ const AppRouter = () => (
       <Header />
       <Switch>
         <Route path="/" component={HomePage} exact={true} />
-        <Route path="/menu" component={MenuPage} />
+        <Route path="/menu" component={MenuCards} />
         <Route path="/aboutus" component={AboutUsPage} />
         <Route path="/Gallery" component={Gallery} />
       </Switch>
