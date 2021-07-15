@@ -33,7 +33,7 @@
 }
 
 .menucards_container .card:nth-child(3) .box .content a {
-  background: #23c186;
+  background: $black;
   font-size: 17px;
 }
 
@@ -97,7 +97,7 @@
   transition: 0.5s;
 }
 
-.menucards_container .card .box .content a {
+.linkTo_menu {
   position: relative;
   display: inline-block;
   padding: 8px 20px;

@@ -17,7 +17,10 @@ const AppRouter = () => (
       <Header />
       <Switch>
         <Route path="/" component={HomePage} exact={true} />
-        <Route path="/menu" component={MenuCards} />
+        <Route path="/menu" component={MenuCards} exact={true} />
+        <Route path="/menu/food" component={MenuCards} exact={true} />
+        <Route path="/menu/wines" component={MenuCards} exact={true} />
+        <Route path="/menu/drinks" component={MenuCards} exact={true} />
         <Route path="/aboutus" component={AboutUsPage} />
         <Route path="/Gallery" component={Gallery} />
       </Switch>

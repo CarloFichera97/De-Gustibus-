@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const MenuCards = () => {
   return (
@@ -12,7 +13,11 @@ const MenuCards = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
               totam velit? Iure nemo labore inventore?
             </p>
-            <a href="#">Read More</a>
+
+            <Link className="linkTo_menu" to="/menu/food">
+              {" "}
+              Read More
+            </Link>
           </div>
         </div>
       </div>
@@ -26,7 +31,11 @@ const MenuCards = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
               totam velit? Iure nemo labore inventore?
             </p>
-            <a href="#">Read More</a>
+
+            <Link className="linkTo_menu" to="/menu/wines">
+              {" "}
+              Read More
+            </Link>
           </div>
         </div>
       </div>
@@ -40,7 +49,10 @@ const MenuCards = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
               totam velit? Iure nemo labore inventore?
             </p>
-            <a href="#">Read More</a>
+            <Link className="linkTo_menu" to="/menu/drinks">
+              {" "}
+              Read More
+            </Link>
           </div>
         </div>
       </div>
